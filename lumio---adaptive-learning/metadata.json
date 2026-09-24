@@ -1,0 +1,6 @@
+{
+  "name": "Lumio - Adaptive Learning Canvas",
+  "description": "The full-stack adaptive learning canvas designed around cognitive signals, real-time pacing, and continuous trajectory synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
