@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "type": "object",
+  "title": "Lumio Student Learning Discovery & Content",
+  "description": "Discovers your learning style and generates personalized educational content",
+  "properties": {
+    "topic": {
+      "type": "string",
+      "title": "What do you want to learn?",
+      "description": "e.g., 'fractions', 'photosynthesis', 'linear equations'",
+      "editor": "textfield",
+      "default": "fractions"
+    },
+    "education_level": {
+      "type": "string",
+      "title": "Your Grade Level",
+      "description": "Select your current grade level in Nigerian education system",
+      "editor": "select",
+      "enum": ["primary_5", "primary_6", "jss_1", "jss_2", "jss_3", "ss_1", "ss_2", "ss_3"],
+      "default": "primary_6"
+    },
+    "run_discovery_quiz": {
+      "type": "boolean",
+      "title": "Discover My Learning Style?",
+      "description": "Run a quick quiz to find how you learn best",
+      "editor": "hidden",
+      "default": true
+    }
+  },
+  "required": ["topic"]
+}
